@@ -11,6 +11,8 @@ import UIKit
 class FavoritesViewController: UIViewController {
     // MARK: - View Life cycle methods
     override func viewDidLoad() {
+        super.viewDidLoad()
+        
         view.backgroundColor = .green
     }
 }
