@@ -15,6 +15,8 @@
 		4B4CED2720ABAB6000365807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4CED2520ABAB6000365807 /* LaunchScreen.storyboard */; };
 		4B4CED3220ABAB6000365807 /* kitsuneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4CED3120ABAB6000365807 /* kitsuneTests.swift */; };
 		4B4CED3D20ABAB6000365807 /* kitsuneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4CED3C20ABAB6000365807 /* kitsuneUITests.swift */; };
+		EE8715C020ABBDC100FA9609 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8715BF20ABBDC100FA9609 /* SettingsViewController.swift */; };
+		EE8715C320ABBE2F00FA9609 /* Kitsune.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE8715C120ABBE2F00FA9609 /* Kitsune.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4B4CED3820ABAB6000365807 /* kitsuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kitsuneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4CED3C20ABAB6000365807 /* kitsuneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitsuneUITests.swift; sourceTree = "<group>"; };
 		4B4CED3E20ABAB6000365807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8715BF20ABBDC100FA9609 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EE8715C220ABBE2F00FA9609 /* Kitsune.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kitsune.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				4B4CED1C20ABAB5F00365807 /* AppDelegate.swift */,
+				EE8715C120ABBE2F00FA9609 /* Kitsune.xcdatamodeld */,
 				4B4CED1E20ABAB5F00365807 /* ResultsViewController.swift */,
+				EE8715BF20ABBDC100FA9609 /* SettingsViewController.swift */,
 				4B07359F20ABBA16008BBD76 /* FavoritesViewController.swift */,
 				4B07359D20ABB761008BBD76 /* TabBarController.swift */,
 				4B4CED2320ABAB6000365807 /* Assets.xcassets */,
@@ -261,6 +267,8 @@
 				4B07359E20ABB761008BBD76 /* TabBarController.swift in Sources */,
 				4B4CED1F20ABAB5F00365807 /* ResultsViewController.swift in Sources */,
 				4B0735A020ABBA16008BBD76 /* FavoritesViewController.swift in Sources */,
+				EE8715C320ABBE2F00FA9609 /* Kitsune.xcdatamodeld in Sources */,
+				EE8715C020ABBDC100FA9609 /* SettingsViewController.swift in Sources */,
 				4B4CED1D20ABAB5F00365807 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,7 +437,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847HNTGAGK;
 				INFOPLIST_FILE = kitsune/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.greene.kitsune;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -444,7 +455,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847HNTGAGK;
 				INFOPLIST_FILE = kitsune/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.greene.kitsune;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -460,7 +474,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847HNTGAGK;
 				INFOPLIST_FILE = kitsuneTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.greene.kitsuneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -477,7 +495,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847HNTGAGK;
 				INFOPLIST_FILE = kitsuneTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.greene.kitsuneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -493,7 +515,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847HNTGAGK;
 				INFOPLIST_FILE = kitsuneUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.greene.kitsuneUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -509,7 +535,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847HNTGAGK;
 				INFOPLIST_FILE = kitsuneUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.greene.kitsuneUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -558,6 +588,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE8715C120ABBE2F00FA9609 /* Kitsune.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE8715C220ABBE2F00FA9609 /* Kitsune.xcdatamodel */,
+			);
+			currentVersion = EE8715C220ABBE2F00FA9609 /* Kitsune.xcdatamodel */;
+			path = Kitsune.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4B4CED1120ABAB5F00365807 /* Project object */;
 }
