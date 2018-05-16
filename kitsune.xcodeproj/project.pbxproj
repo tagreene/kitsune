@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C7741CB0C41DA889038B684 /* Pods_kitsune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D13D3DA67A5F8BC2B8DA24 /* Pods_kitsune.framework */; };
 		4B4CED1D20ABAB5F00365807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4CED1C20ABAB5F00365807 /* AppDelegate.swift */; };
 		4B4CED1F20ABAB5F00365807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4CED1E20ABAB5F00365807 /* ViewController.swift */; };
-		4B4CED2220ABAB5F00365807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4CED2020ABAB5F00365807 /* Main.storyboard */; };
 		4B4CED2420ABAB6000365807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4CED2320ABAB6000365807 /* Assets.xcassets */; };
 		4B4CED2720ABAB6000365807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4CED2520ABAB6000365807 /* LaunchScreen.storyboard */; };
 		4B4CED3220ABAB6000365807 /* kitsuneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4CED3120ABAB6000365807 /* kitsuneTests.swift */; };
 		4B4CED3D20ABAB6000365807 /* kitsuneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4CED3C20ABAB6000365807 /* kitsuneUITests.swift */; };
+		93FF8034C8AE6B3B9BF6B118 /* Pods_kitsuneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544A92C581C9B81152571746 /* Pods_kitsuneUITests.framework */; };
+		E0850528783F1A3769A0A46E /* Pods_kitsuneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029637C889E87ED84494D306 /* Pods_kitsuneTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		029637C889E87ED84494D306 /* Pods_kitsuneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kitsuneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		294082669338238D064C6270 /* Pods-kitsuneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kitsuneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kitsuneUITests/Pods-kitsuneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45D13D3DA67A5F8BC2B8DA24 /* Pods_kitsune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kitsune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4CED1920ABAB5F00365807 /* kitsune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kitsune.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4CED1C20ABAB5F00365807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B4CED1E20ABAB5F00365807 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B4CED2120ABAB5F00365807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B4CED2320ABAB6000365807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B4CED2620ABAB6000365807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B4CED2820ABAB6000365807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		4B4CED3820ABAB6000365807 /* kitsuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kitsuneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4CED3C20ABAB6000365807 /* kitsuneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitsuneUITests.swift; sourceTree = "<group>"; };
 		4B4CED3E20ABAB6000365807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544A92C581C9B81152571746 /* Pods_kitsuneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kitsuneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEC4DF4F7693F61CC7BD889 /* Pods-kitsuneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kitsuneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kitsuneTests/Pods-kitsuneTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B65ECB8A1712391C9DFC3A1 /* Pods-kitsuneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kitsuneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kitsuneUITests/Pods-kitsuneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8EE5F1CC81A5513571D75AF3 /* Pods-kitsune.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kitsune.release.xcconfig"; path = "Pods/Target Support Files/Pods-kitsune/Pods-kitsune.release.xcconfig"; sourceTree = "<group>"; };
+		CC86B4652E94224094AFB1FD /* Pods-kitsune.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kitsune.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kitsune/Pods-kitsune.debug.xcconfig"; sourceTree = "<group>"; };
+		DEAC9035DB6A5564EE4D54EB /* Pods-kitsuneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kitsuneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kitsuneTests/Pods-kitsuneTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7741CB0C41DA889038B684 /* Pods_kitsune.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0850528783F1A3769A0A46E /* Pods_kitsuneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +80,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FF8034C8AE6B3B9BF6B118 /* Pods_kitsuneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0729F0165F6DC9E1EE1CB04A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45D13D3DA67A5F8BC2B8DA24 /* Pods_kitsune.framework */,
+				029637C889E87ED84494D306 /* Pods_kitsuneTests.framework */,
+				544A92C581C9B81152571746 /* Pods_kitsuneUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B62E3FEE4C56EB230A398E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC86B4652E94224094AFB1FD /* Pods-kitsune.debug.xcconfig */,
+				8EE5F1CC81A5513571D75AF3 /* Pods-kitsune.release.xcconfig */,
+				DEAC9035DB6A5564EE4D54EB /* Pods-kitsuneTests.debug.xcconfig */,
+				5CEC4DF4F7693F61CC7BD889 /* Pods-kitsuneTests.release.xcconfig */,
+				294082669338238D064C6270 /* Pods-kitsuneUITests.debug.xcconfig */,
+				8B65ECB8A1712391C9DFC3A1 /* Pods-kitsuneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4B4CED1020ABAB5F00365807 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +117,8 @@
 				4B4CED3020ABAB6000365807 /* kitsuneTests */,
 				4B4CED3B20ABAB6000365807 /* kitsuneUITests */,
 				4B4CED1A20ABAB5F00365807 /* Products */,
+				2B62E3FEE4C56EB230A398E8 /* Pods */,
+				0729F0165F6DC9E1EE1CB04A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +137,6 @@
 			children = (
 				4B4CED1C20ABAB5F00365807 /* AppDelegate.swift */,
 				4B4CED1E20ABAB5F00365807 /* ViewController.swift */,
-				4B4CED2020ABAB5F00365807 /* Main.storyboard */,
 				4B4CED2320ABAB6000365807 /* Assets.xcassets */,
 				4B4CED2520ABAB6000365807 /* LaunchScreen.storyboard */,
 				4B4CED2820ABAB6000365807 /* Info.plist */,
@@ -132,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B4CED4120ABAB6000365807 /* Build configuration list for PBXNativeTarget "kitsune" */;
 			buildPhases = (
+				75DC9D8A391D4E25D650E5A0 /* [CP] Check Pods Manifest.lock */,
 				4B4CED1520ABAB5F00365807 /* Sources */,
 				4B4CED1620ABAB5F00365807 /* Frameworks */,
 				4B4CED1720ABAB5F00365807 /* Resources */,
+				3CED64A62E89A1FEE7EA401A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B4CED4420ABAB6000365807 /* Build configuration list for PBXNativeTarget "kitsuneTests" */;
 			buildPhases = (
+				8FD4056D840CC5D391383B38 /* [CP] Check Pods Manifest.lock */,
 				4B4CED2920ABAB6000365807 /* Sources */,
 				4B4CED2A20ABAB6000365807 /* Frameworks */,
 				4B4CED2B20ABAB6000365807 /* Resources */,
+				C47C5427793D784127A035BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B4CED4720ABAB6000365807 /* Build configuration list for PBXNativeTarget "kitsuneUITests" */;
 			buildPhases = (
+				EF35296F337DCD0D9464A7DC /* [CP] Check Pods Manifest.lock */,
 				4B4CED3420ABAB6000365807 /* Sources */,
 				4B4CED3520ABAB6000365807 /* Frameworks */,
 				4B4CED3620ABAB6000365807 /* Resources */,
+				A3C97E7D845ED49DFB545EBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +274,6 @@
 			files = (
 				4B4CED2720ABAB6000365807 /* LaunchScreen.storyboard in Resources */,
 				4B4CED2420ABAB6000365807 /* Assets.xcassets in Resources */,
-				4B4CED2220ABAB5F00365807 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +292,123 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CED64A62E89A1FEE7EA401A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kitsune/Pods-kitsune-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kitsune/Pods-kitsune-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75DC9D8A391D4E25D650E5A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kitsune-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FD4056D840CC5D391383B38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kitsuneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3C97E7D845ED49DFB545EBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kitsuneUITests/Pods-kitsuneUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kitsuneUITests/Pods-kitsuneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C47C5427793D784127A035BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kitsuneTests/Pods-kitsuneTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kitsuneTests/Pods-kitsuneTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF35296F337DCD0D9464A7DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kitsuneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B4CED1520ABAB5F00365807 /* Sources */ = {
@@ -293,14 +452,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4B4CED2020ABAB5F00365807 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B4CED2120ABAB5F00365807 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B4CED2520ABAB6000365807 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,15 +579,13 @@
 		};
 		4B4CED4220ABAB6000365807 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC86B4652E94224094AFB1FD /* Pods-kitsune.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847HNTGAGK;
 				INFOPLIST_FILE = kitsune/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greene.kitsune;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +595,13 @@
 		};
 		4B4CED4320ABAB6000365807 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE5F1CC81A5513571D75AF3 /* Pods-kitsune.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847HNTGAGK;
 				INFOPLIST_FILE = kitsune/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greene.kitsune;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,17 +611,14 @@
 		};
 		4B4CED4520ABAB6000365807 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEAC9035DB6A5564EE4D54EB /* Pods-kitsuneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847HNTGAGK;
 				INFOPLIST_FILE = kitsuneTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greene.kitsuneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -485,17 +629,14 @@
 		};
 		4B4CED4620ABAB6000365807 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CEC4DF4F7693F61CC7BD889 /* Pods-kitsuneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847HNTGAGK;
 				INFOPLIST_FILE = kitsuneTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greene.kitsuneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,16 +647,13 @@
 		};
 		4B4CED4820ABAB6000365807 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294082669338238D064C6270 /* Pods-kitsuneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847HNTGAGK;
 				INFOPLIST_FILE = kitsuneUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greene.kitsuneUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -526,16 +664,13 @@
 		};
 		4B4CED4920ABAB6000365807 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B65ECB8A1712391C9DFC3A1 /* Pods-kitsuneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847HNTGAGK;
 				INFOPLIST_FILE = kitsuneUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greene.kitsuneUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
