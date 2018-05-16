@@ -13,6 +13,8 @@ class TabBarController: UITabBarController {
     // Mark: - View Life Cycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        tabBar.barStyle = .black
         
         let results = ResultsViewController()
         results.title = "Results"
