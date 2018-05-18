@@ -10,4 +10,10 @@ import Foundation
 
 class ResultLocation: Codable {
     var city: String?
+    var country: String?
+    var address2: String?
+    var address3: String?
+    var address1: String?
+    var state: String?
+    var zip_code: String?
 }

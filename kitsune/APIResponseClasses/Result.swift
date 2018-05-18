@@ -18,4 +18,7 @@ class Result: Codable {
     var url: String?
     var image_url: String?
     var location: ResultLocation?
+    
+    // Set this value when dequeued?
+    var lastSeen: Date?
 }
